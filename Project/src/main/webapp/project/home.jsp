@@ -27,42 +27,12 @@
     	window.addEventListener('scroll',scrollFunc);
     </script>
         <div class="logo">
-        	<h1><a href="#">LOGO</a></h1>
+        	<h1><a href="cityPlan.do?cmd=cityInfoView">LOGO</a></h1>
         </div>
         <div class="menu_wrap">
             <ul class="dep1">
                 <li>
-                    <span>아시아</span>
-                    <ul class="dep2">
-                        <li><a href="">한국</a></li>
-                        <li><a href="">일본</a></li>
-                        <li><a href="">중국</a></li>
-                        <li><a href="">대만</a></li>
-                        <li><a href="">홍콩 마카오</a></li>
-                        <li><a href="">&nbsp;</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <span>아메리카</span>
-                    <ul class="dep2">
-                        <li><a href="">미국(동)</a></li>
-                        <li><a href="">미국(서)</a></li>
-                        <li><a href="">캐나다</a></li>
-                        <li><a href="">하와이</a></li>
-                        <li><a href="">괌</a></li>
-                        <li><a href="">&nbsp;</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <span>유럽</span>
-                    <ul class="dep2">
-                        <li><a href="">영국</a></li>
-                        <li><a href="">프랑스</a></li>
-                        <li><a href="">독일</a></li>
-                        <li><a href="">이탈리아</a></li>
-                        <li><a href="">스페인</a></li>
-                        <li><a href="">스위스</a></li>
-                    </ul>
+                    <span>추천플래너</span>
                 </li>
                 <li>
                     <span>게시판</span>
@@ -73,17 +43,15 @@
                         <li><a href="">루트소개</a></li>
                         <li><a href="">루트질문</a></li>
                         <li><a href="">나눔게시판</a></li>
+                        <li>&nbsp;</li>
                     </ul>
                 </li>
                 <li>
                     <span>내일정</span>
                     <ul class="dep2">
-                    	<li><a href="MyPlan_Click.jsp">일정만들기</a></li>
-                    	<li><a href="">준비물챙기기</a></li>
-                    	<li><a href="">&nbsp;</a></li>
-                    	<li><a href="">&nbsp;</a></li>
-                    	<li><a href="">&nbsp;</a></li>
-                    	<li><a href="">&nbsp;</a></li>
+                    	<li><a href="cityPlan.do?cmd=myPlanClick" target="_blank">일정만들기</a></li>
+                    	<li><a href="cityPlan.do?cmd=necessity">준비물챙기기</a></li>
+                    	<li>&nbsp;</li>
                     </ul>
                 </li>
             </ul>

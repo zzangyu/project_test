@@ -1,13 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="com.dbcp.DBCPPlanCityInfo" %>
+<%@ page import="com.city.model.CityDAO" %>
 <%@ page import="java.util.*" %>
-<%@ page import="com.dbcp.SaveCityVO" %>
-<% request.setCharacterEncoding("utf-8"); %>
-<jsp:useBean id="citySave" class="com.dbcp.SaveCityVO" scope="page">
+<%@ page import="com.city.model.SaveCityVO" %>
+<%
+request.setCharacterEncoding("utf-8");
+%>
+<jsp:useBean id="citySave" class="com.city.model.SaveCityVO" scope="page">
 	<jsp:setProperty name="citySave" property="*"></jsp:setProperty>
 </jsp:useBean>
-<jsp:useBean id="dao" class="com.dbcp.DBCPPlanCityInfo"></jsp:useBean>
+<jsp:useBean id="dao" class="com.city.model.CityDAO"></jsp:useBean>
 
 <%	
 	String id = "han"; // 나중에 session값 받는걸로 바꿔야함

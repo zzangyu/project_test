@@ -1,15 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="com.dbcp.DBCPPlanCityInfo" %>
+<%@ page import="com.city.model.CityDAO" %>
 <%@ page import="java.util.*" %>
-<%@ page import="com.dbcp.SaveCityVO" %>
-<% request.setCharacterEncoding("utf-8"); %>
-<jsp:useBean id="citySave" class="com.dbcp.SaveCityVO" scope="page">
+<%@ page import="com.city.model.SaveCityVO" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%-- <jsp:useBean id="citySave" class="com.city.model.SaveCityVO" scope="page">
 	<jsp:setProperty name="citySave" property="*"></jsp:setProperty>
-</jsp:useBean>
-<jsp:useBean id="dao" class="com.dbcp.DBCPPlanCityInfo"></jsp:useBean>
+</jsp:useBean> --%>
+<%-- <jsp:useBean id="dao" class="com.city.model.CityDAO"></jsp:useBean> --%>
 
-<%	
+
+
+<%
 	Random rand = new Random(); /* idCheck를 랜덤으로 추가해주기 위해 객체 생성 */
 	String id = "han";
 	String idCheck_set = "";
@@ -36,7 +38,7 @@
 	} 
 %>
 <!-- 위에 안걸리고 저장 되었으면 저장완료 선언 후 페이지 이동 -->
-<meta http-equiv="Refresh" content="0; url=CityInfoView.jsp">
+<meta http-equiv="Refresh" content="0; url=cityPlan.do?cmd=cityInfoView.">
 <script type="text/javascript">
 	alert("<저장 완료>");
 </script>

@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ page import="java.sql.*, com.dbcp.*, java.util.*"%>
-    <jsp:useBean id="dao" class="com.dbcp.DBCPPlanCityInfo" />
+    <%@ page import="java.sql.*,com.city.model.*, java.util.*"%>
+    <jsp:useBean id="dao" class="com.city.model.CityDAO" />
     <% 
     	List<PlanCityInfoVO> arry = dao.getPlanInfo();
     %>

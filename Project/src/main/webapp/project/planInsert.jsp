@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="java.sql.*, com.dbcp.*, java.util.*"%>
-    <jsp:useBean id="dao" class="com.dbcp.DBCPPlanCityInfo" scope="page" />
-    <jsp:useBean id="dao2" class="com.dbcp.DBCP" scope="page" />
+<%@ page import="java.sql.*,com.city.model.*, java.util.*"%>
+    <jsp:useBean id="dao" class="com.city.model.CityDAO" scope="page" />
+    <jsp:useBean id="dao2" class="com.city.model.CityDAO" scope="page" />
     <% 
     	String id = "han"; // 임의로 지정 => session으로 받을 예정
     	String idCheck = "7han5"; // 임의로 지정 => 마이페이지 완성되면 변경
