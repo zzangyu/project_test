@@ -45,7 +45,18 @@ public class ActionFactory {
 			action = new SaveProcAction();
 			break;
 			
-		
+		case "planCityInfo":
+			action = new PlanCityInfoAction();
+			break;
+			
+		case "planInsert":
+			action = new PlanInsertAction();
+			break;
+			
+		case "updateProc":
+			action = new UpdateProcAction();
+			break;
+			
 		default:
 			action = new IndexAction();
 			break;
