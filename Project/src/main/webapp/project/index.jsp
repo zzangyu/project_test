@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link type="text/css" rel="stylesheet" href="css/index.css">
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&family=Gowun+Dodum&display=swap" rel="stylesheet">
 <title>DOZO</title>
 </head>
 <body>
