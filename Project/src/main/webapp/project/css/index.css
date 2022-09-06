@@ -2,23 +2,23 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
-
+body {
+    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url(../images/clouds.jpg);
+}
 .container { /*전체 컨테이너*/
     width: 100%;
     height: 100%; 
-    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url(images/clouds.jpg);
     z-index: 55;
 }
 .container .header { /*헤드 전체*/
     width: 80%;
-    height: 50px;
+    height: 80px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    /* border-bottom: 1px solid black; */
+    border-bottom: 1px solid black;
 }
 .container .header h1 a { /*헤드바*/
     text-decoration: none;
@@ -43,13 +43,12 @@
 .rectangle { /*마름모*/
     height: 420px;
     width: 420px;
-    background-color: blueviolet;
+    opacity: 1;
     position: relative;
     transform: rotate(-45deg); 
-   /* display: inline-block; */
-   margin-top: 100px;
-   margin-right: 150px;
-   float: right;
+    margin-top: 130px;
+    margin-right: 150px;
+	float: right;
    
 }
 .minibox { /*마름모안에 작은 네모*/
@@ -58,7 +57,6 @@
     position: absolute;
     left: 70px;
     top: 70px;
-    background-color:maroon;
 }
 .small1 {  /*시작*/
     width: 70px;
@@ -71,8 +69,8 @@
 .small1-1 {
     font-size: 130%;
     transform: rotate(-315deg);
-    margin-top: 14px;
-    margin-left: 9px;
+    margin-top: 27px;
+    margin-left: 15px;
     
 }
 .small2 { /*해인*/
@@ -88,8 +86,8 @@
 .small2-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 27px;
-    margin-left: 13px;
+    margin-top: 29px;
+    margin-left: 15px;
 }
 .small3 { /*승환*/
     width: 70px;
@@ -102,8 +100,8 @@
 .small3-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 27px;
-    margin-left: 13px;
+    margin-top: 29px;
+    margin-left: 15px;
 }
 .small4 { /*재연*/
     width: 70px;
@@ -116,8 +114,8 @@
 .small4-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 27px;
-    margin-left: 13px;
+    margin-top: 29px;
+    margin-left: 15px;
 } 
 .small5 { /*찬규*/
     width: 70px;
@@ -130,8 +128,8 @@
 .small5-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 27px;
-    margin-left: 13px;
+    margin-top: 29px;
+    margin-left: 15px;
 }
 .small6 { /*아시아*/
     width: 70px;
@@ -144,8 +142,8 @@
 .small6-1 {
     font-size: 125%;
     transform: rotate(-315deg);
-    margin-top: 20px;
-    margin-left: 5px;
+    margin-top: 25px;
+    margin-left: 7px;
 }
 .small7 { /*한국*/
     width: 70px;
@@ -158,8 +156,8 @@
 .small7-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 24px;
-    margin-left: 14px;
+    margin-top: 29px;
+    margin-left: 15px;
 }
 .small8 { /*일본*/
     width: 70px;
@@ -172,8 +170,8 @@
 .small8-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 24px;
-    margin-left: 14px;
+    margin-top: 29px;
+    margin-left: 15px;
 }
 .small9 { /*중국*/
     width: 70px;
@@ -186,8 +184,8 @@
 .small9-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 24px;
-    margin-left: 14px;
+    margin-top: 29px;
+    margin-left: 15px;
 }
 .small10 { /*대만*/
     width: 70px;
@@ -195,13 +193,13 @@
     position: absolute;
     left: 280px;
     top: 0 ;
-    background-color :black;
+    background-color:white;
 }
 .small10-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 24px;
-    margin-left: 14px;
+    margin-top: 29px;
+    margin-left: 15px;
 }
 .small11 { /*유럽*/
     width: 70px;
@@ -228,8 +226,8 @@
 .small12-1 {
     font-size: 125%;
     transform: rotate(-315deg);
-    margin-top: 20px;
-    margin-left: 5px;
+    margin-top: 24px;
+    margin-left: 8px;
 }
 .small13 { /*스페인*/
     width: 70px;
@@ -242,8 +240,8 @@
 .small13-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 20px;
-    margin-left: 3px;
+    margin-top: 27px;
+    margin-left: 7px;
 }
 .small14 { /*독일*/
     width: 70px;
@@ -256,8 +254,8 @@
 .small14-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 27px;
-    margin-left: 13px;
+    margin-top: 29px;
+    margin-left: 15px;
 }
 .small15 { /*프랑스*/
     width: 70px;
@@ -270,8 +268,8 @@
 .small15-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 20px;
-    margin-left: 3px;
+    margin-top: 27px;
+    margin-left: 7px;
 }
 .small16 { /*영국*/
     width: 70px;
@@ -284,7 +282,7 @@
 .small16-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 27px;
+    margin-top: 29px;
     margin-left: 12px;
 } 
 .small17 { /*괌*/
@@ -298,8 +296,8 @@
 .small17-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 27px;
-    margin-left: 22px;
+    margin-top: 32px;
+    margin-left: 24px;
 }
 .small18 { /*캐나다*/
     width: 70px;
@@ -312,8 +310,8 @@
 .small18-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 20px;
-    margin-left: 3px;
+    margin-top: 26px;
+    margin-left: 8px;
 }
 .small19 { /*엘에이*/
     width: 70px;
@@ -326,8 +324,8 @@
 .small19-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 30px;
+    margin-left: 23px;
 }
 .small20 { /*뉴욕크*/
     width: 70px;
@@ -340,17 +338,20 @@
 .small20-1 {
     font-size: 100%;
     transform: rotate(-315deg);
-    margin-top: 23px;
+    margin-top: 29px;
     margin-left: 15px;
 }
 a {
     text-decoration-line: none;
     font-size: 135%;
 }
+.font {
+	font-size: 18px;
+}
 .photo {
     position:absolute;
-     left:100px;
-      top:100px;
-       z-index:1;
-       display:none;
+    left:100px;
+    top:210px;
+    z-index:1;
+    display:none;
 }
