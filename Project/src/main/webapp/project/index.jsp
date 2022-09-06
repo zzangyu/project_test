@@ -19,7 +19,6 @@
                 </ul>
             </div>
         </div>
-       
         <div class="rectangle">
             <div class="minibox"></div>
             <div class="small1"><div class="small1-1"><a href="cityPlay.do?cmd=cityInfoView" class="font">시작</a></div></div>
@@ -48,40 +47,40 @@
        
     <div>
         <div class="photo" id="city1">
-            <img src="images/한국.jpg" alt="korea" width="700px" height="420px">
+            <img src="images/한국.jpg" alt="korea">
             </div>
         <div class="photo" id="city2">
-            <img src="images/일본.jpg" alt="japan" width="700px" height="420px">
+            <img src="images/일본.jpg" alt="japan">
             </div>
         <div class="photo" id="city3">
-            <img src="images/중국.jpg" alt="china" width="700px" height="420px">
+            <img src="images/중국.jpg" alt="china">
             </div>
         <div class="photo" id="city4">
-            <img src="images/대만.jpg" alt="taiwan" width="700px" height="420px">
-            </div>
-        <div class="photo" id="city5">
-            <img src="images/영국.jpg" alt="england" width="700px" height="420px">
-            </div>
-        <div class="photo" id="city6">
-            <img src="images/프랑스.jpg" alt="france" width="700px" height="420px">
-            </div>
-        <div class="photo" id="city7">
-            <img src="images/독일.jpg" alt="germany" width="700px" height="420px">
+            <img src="images/대만.jpg" alt="taiwan">
             </div>
         <div class="photo" id="city8">
-            <img src="images/스페인.jpg" alt="spain" width="700px" height="420px">
+            <img src="images/영국.jpg" alt="england">
             </div>
-        <div class="photo" id="city9">
-            <img src="images/la.jpg" alt="lacity" width="700px" height="420px">
+        <div class="photo" id="city7">
+            <img src="images/프랑스.jpg" alt="france">
             </div>
-        <div class="photo" id="city10">
-            <img src="images/뉴욕.jpg" alt="newyork" width="700px" height="420px"> 
+        <div class="photo" id="city6">
+            <img src="images/독일.jpg" alt="germany">
+            </div>
+        <div class="photo" id="city5">
+            <img src="images/스페인.jpg" alt="spain">
             </div>
         <div class="photo" id="city11">
-            <img src="images/캐나다.jpg" alt="canada" width="700px" height="420px">
+            <img src="images/la.jpg" alt="lacity">
             </div>
         <div class="photo" id="city12">
-            <img src="images/괌.jpg" alt="guam" width="700px" height="420px">
+            <img src="images/뉴욕.jpg" alt="newyork"> 
+            </div>
+        <div class="photo" id="city10">
+            <img src="images/캐나다.jpg" alt="canada">
+            </div>
+        <div class="photo" id="city9">
+            <img src="images/괌.jpg" alt="guam">
         </div>
     </div>
     <script type="text/javascript" src="js/index.js"></script>

@@ -7,5 +7,4 @@ var ViewLayer = function(cityA) {
     	}
     }
 	document.getElementById(city).style.display = 'block';
-	
 }

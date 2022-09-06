@@ -3,8 +3,12 @@
     margin: 0;
     padding: 0;
 }
+html {
+	width: 100%;
+	height: 100%;
+}
 body {
-    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url(../images/clouds.jpg);
+    background: linear-gradient(rgba(250, 250, 250, 0.7),rgba(255,255,255,0.7)),url(../images/clouds.jpg);
     Font-family: 'Gowun Dodum', sans-serif;
 }
 .container { /*전체 컨테이너*/
@@ -46,10 +50,12 @@ body {
     width: 420px;
     opacity: 1;
     position: relative;
-    transform: rotate(-45deg); 
+    transform: scale(1, 0.7) rotate(-45deg);
     margin-top: 130px;
     margin-right: 150px;
 	float: right;
+	background-color: white;
+	border-radius: 50%;
    
 }
 .minibox { /*마름모안에 작은 네모*/
@@ -83,6 +89,10 @@ body {
     background-color: #f08080;
     padding: 0;
     margin: 0;
+}
+.small2:hover {
+	transform: translateY(10px);
+	z-index: 1;
 }
 .small2-1 {
     font-size: 100%;
@@ -347,6 +357,7 @@ a {
     font-size: 135%;
 }
 .font {
+    transform: scale(1, 1);
 	font-size: 18px;
 	cursor: pointer;
 }
@@ -356,4 +367,8 @@ a {
     top:210px;
     z-index:1;
     display:none;
+}
+.photo img {
+	width:700px;
+	height:420px;
 }
