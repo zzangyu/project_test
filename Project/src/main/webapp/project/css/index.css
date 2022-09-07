@@ -23,7 +23,6 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    border-bottom: 1px solid black;
 }
 .container .header h1 a { /*헤드바*/
     text-decoration: none;
@@ -46,15 +45,12 @@ body {
 
 
 .rectangle { /*마름모*/
-    height: 420px;
-    width: 420px;
+    height: 620px;
+    width: 620px;
     opacity: 1;
     position: relative;
-    transform: scale(1, 0.7) rotate(-45deg);
-    margin-top: 130px;
-    margin-right: 150px;
-	float: right;
-	background-color: white;
+    transform: scale(1, 0.8) rotate(-45deg);
+    margin-left: 450px;
 	border-radius: 50%;
    
 }
@@ -66,12 +62,13 @@ body {
     top: 70px;
 }
 .small1 {  /*시작*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 20px;
     background-color: #ffdab9;
+    opacity: 0.7;
 }	
 .small1-1 {
     font-size: 130%;
@@ -81,18 +78,20 @@ body {
     
 }
 .small2 { /*해인*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
-    top: 70px;
+    top: 100px;
     background-color: #f08080;
+    opacity: 0.7;
     padding: 0;
     margin: 0;
 }
-.small2:hover {
-	transform: translateY(10px);
-	z-index: 1;
+.small1:hover, .small2:hover, .small3:hover, .small4:hover, .small5:hover, .small6:hover, .small7:hover, .small8:hover,
+.small9:hover, .small10:hover, .small11:hover, .small12:hover, .small13:hover, .small14:hover, .small15:hover, .small16:hover, 
+.small17:hover, .small18:hover, .small19:hover, .small20:hover {
+	background-color: white;
 }
 .small2-1 {
     font-size: 100%;
@@ -101,12 +100,13 @@ body {
     margin-left: 15px;
 }
 .small3 { /*승환*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
-    top: 140px; 
+    top: 200px; 
     background-color: #f4978e;
+    opacity: 0.7;
 }
 .small3-1 {
     font-size: 100%;
@@ -115,12 +115,13 @@ body {
     margin-left: 15px;
 }
 .small4 { /*재연*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
-    top: 210px;
+    top: 300px;
     background-color: #f8ad9d;
+    opacity: 0.7;
 }
 .small4-1 {
     font-size: 100%;
@@ -129,12 +130,14 @@ body {
     margin-left: 15px;
 } 
 .small5 { /*찬규*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
-    top: 280px;
-    background-color: #fbc4ab; 
+    top: 400px;
+    background-color: #fbc4ab;
+    opacity: 0.7;
+    
 }
 .small5-1 {
     font-size: 100%;
@@ -143,12 +146,13 @@ body {
     margin-left: 15px;
 }
 .small6 { /*아시아*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
-    top: 0 ;
+    top: 0;
     background-color: #90e0ef; 
+    opacity: 0.7;
 }
 .small6-1 {
     font-size: 125%;
@@ -157,12 +161,13 @@ body {
     margin-left: 7px;
 }
 .small7 { /*한국*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 70px;
+    left: 100px;
     top: 0 ;
     background-color: #48cae4; 
+    opacity: 0.7;
 }
 .small7-1 {
     font-size: 100%;
@@ -171,12 +176,13 @@ body {
     margin-left: 15px;
 }
 .small8 { /*일본*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 140px;
+    left: 200px;
     top: 0 ;
     background-color: #00b4d8;
+    opacity: 0.7;
 }
 .small8-1 {
     font-size: 100%;
@@ -185,12 +191,13 @@ body {
     margin-left: 15px;
 }
 .small9 { /*중국*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 210px;
+    left: 300px;
     top: 0 ;
     background-color: #0096c7;
+    opacity: 0.7;
 }
 .small9-1 {
     font-size: 100%;
@@ -199,12 +206,13 @@ body {
     margin-left: 15px;
 }
 .small10 { /*대만*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 280px;
+    left: 400px;
     top: 0 ;
     background-color: #0077b6;
+    opacity: 0.7;
 }
 .small10-1 {
     font-size: 100%;
@@ -213,12 +221,13 @@ body {
     margin-left: 15px;
 }
 .small11 { /*유럽*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    right: 0;
-    top: 0 ;
+    right: 20px;
+    top: 0;
     background-color: #ffdd00;
+    opacity: 0.7;
 }
 .small11-1 {
     font-size: 130%;
@@ -227,12 +236,13 @@ body {
     margin-left: 15px;
 }
 .small12 { /*미대륙*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: 20px;
     background-color: #b7e4c7;
+    opacity: 0.7;
 }
 .small12-1 {
     font-size: 125%;
@@ -241,12 +251,13 @@ body {
     margin-left: 8px;
 }
 .small13 { /*스페인*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    right: 0;
-    bottom: 70px;
+    right: 20px;
+    bottom: 120px;
     background-color: #ff7b00;
+    opacity: 0.7;
 }
 .small13-1 {
     font-size: 100%;
@@ -255,12 +266,13 @@ body {
     margin-left: 7px;
 }
 .small14 { /*독일*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    right: 0;
-    bottom: 140px;
+    right: 20px;
+    bottom: 220px;
     background-color: #ff9500;
+    opacity: 0.7;
 }
 .small14-1 {
     font-size: 100%;
@@ -269,12 +281,13 @@ body {
     margin-left: 15px;
 }
 .small15 { /*프랑스*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    right: 0;
-    bottom: 210px;
+    right: 20px;
+    bottom: 320px;
     background-color: #ffaa00;
+    opacity: 0.7;
 }
 .small15-1 {
     font-size: 100%;
@@ -283,12 +296,13 @@ body {
     margin-left: 7px;
 }
 .small16 { /*영국*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    right: 0;
-    bottom:280px;
+    right: 20px;
+    bottom:420px;
     background-color: #ffc300; 
+    opacity: 0.7;
 }
 .small16-1 {
     font-size: 100%;
@@ -297,12 +311,13 @@ body {
     margin-left: 12px;
 } 
 .small17 { /*괌*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 70px;
-    bottom: 0;
+    left: 100px;
+    bottom: 20px;
     background-color: #40916c; 
+    opacity: 0.7;
 }
 .small17-1 {
     font-size: 100%;
@@ -311,12 +326,13 @@ body {
     margin-left: 24px;
 }
 .small18 { /*캐나다*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 140px;
-    bottom: 0;
+    left: 200px;
+    bottom: 20px;
     background-color: #52b788; 
+    opacity: 0.7;
 }
 .small18-1 {
     font-size: 100%;
@@ -325,12 +341,13 @@ body {
     margin-left: 8px;
 }
 .small19 { /*엘에이*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 210px;
-    bottom: 0;
+    left: 300px;
+    bottom: 20px;
     background-color: #74c69d; 
+    opacity: 0.7;
 }
 .small19-1 {
     font-size: 100%;
@@ -339,12 +356,13 @@ body {
     margin-left: 23px;
 }
 .small20 { /*뉴욕크*/
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 280px;
-    bottom: 0;
+    left: 400px;
+    bottom: 20px;
     background-color: #95d5b2; 
+    opacity: 0.7;
 }
 .small20-1 {
     font-size: 100%;
@@ -361,14 +379,19 @@ a {
 	font-size: 18px;
 	cursor: pointer;
 }
-.photo {
-    position:absolute;
-    left:100px;
-    top:210px;
-    z-index:1;
-    display:none;
+.minibox {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
 }
-.photo img {
-	width:700px;
-	height:420px;
+.photo {
+    z-index:3;
+    display:none;
+    transform: rotate(-315deg);
+	width:570px;
+	height:570px;
+	margin: 14px 0 0 14px;
+	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }

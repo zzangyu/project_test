@@ -20,7 +20,20 @@
             </div>
         </div>
         <div class="rectangle">
-            <div class="minibox"></div>
+            <div class="minibox">
+            	<img src="images/한국.jpg" alt="korea" id="city1" class="photo">
+            	<img src="images/일본.jpg" alt="japan" id="city2" class="photo">
+            	<img src="images/중국.jpg" alt="china" id="city3" class="photo">
+            	<img src="images/대만.jpg" alt="taiwan" id="city4" class="photo">
+            	<img src="images/영국.jpg" alt="england" id="city8" class="photo">
+            	<img src="images/프랑스.jpg" alt="france"id="city7" class="photo">
+            	<img src="images/독일.jpg" alt="germany" id="city6" class="photo">
+            	<img src="images/스페인.jpg" alt="spain" id="city5" class="photo">
+            	<img src="images/la.jpg" alt="lacity" id="city11" class="photo">
+            	<img src="images/뉴욕.jpg" alt="newyork" id="city12" class="photo">
+            	<img src="images/캐나다.jpg" alt="canada" id="city10" class="photo">
+            	<img src="images/괌.jpg" alt="guam" id="city9" class="photo">
+            </div>
             <div class="small1"><div class="small1-1"><a href="cityPlay.do?cmd=cityInfoView" class="font">시작</a></div></div>
             <div class="small2"><div class="small2-1"><a class="font">해인</a></div></div>
             <div class="small3"><div class="small3-1"><a class="font">승환</a></div></div>
@@ -41,46 +54,6 @@
             <div class="small18" onclick="ViewLayer('city10');"><div class="small18-1"><a class="font">캐나다</a></div></div>
             <div class="small19" onclick="ViewLayer('city11');"><div class="small19-1"><a class="font">LA</a></div></div>
             <div class="small20" onclick="ViewLayer('city12');"><div class="small20-1"><a class="font">뉴욕</a></div></div>
-        </div>
-    </div>
-        
-       
-    <div>
-        <div class="photo" id="city1">
-            <img src="images/한국.jpg" alt="korea">
-            </div>
-        <div class="photo" id="city2">
-            <img src="images/일본.jpg" alt="japan">
-            </div>
-        <div class="photo" id="city3">
-            <img src="images/중국.jpg" alt="china">
-            </div>
-        <div class="photo" id="city4">
-            <img src="images/대만.jpg" alt="taiwan">
-            </div>
-        <div class="photo" id="city8">
-            <img src="images/영국.jpg" alt="england">
-            </div>
-        <div class="photo" id="city7">
-            <img src="images/프랑스.jpg" alt="france">
-            </div>
-        <div class="photo" id="city6">
-            <img src="images/독일.jpg" alt="germany">
-            </div>
-        <div class="photo" id="city5">
-            <img src="images/스페인.jpg" alt="spain">
-            </div>
-        <div class="photo" id="city11">
-            <img src="images/la.jpg" alt="lacity">
-            </div>
-        <div class="photo" id="city12">
-            <img src="images/뉴욕.jpg" alt="newyork"> 
-            </div>
-        <div class="photo" id="city10">
-            <img src="images/캐나다.jpg" alt="canada">
-            </div>
-        <div class="photo" id="city9">
-            <img src="images/괌.jpg" alt="guam">
         </div>
     </div>
     <script type="text/javascript" src="js/index.js"></script>
