@@ -37,7 +37,7 @@
 	<c:forEach var="arry" items="${arry}">
 		<div class="${arry.getBtn()}"> <!-- 버튼 눌렀을때 display 설정하기 위해 class 속성 부여 -->
 			<div class="btn-open-popup">
-				<a class="btn" href="#${arry.getCityname()}"> 
+				<a class="btn" href="#${arry.getCityname()}">
 					<div  class="img"><img src="./img/${arry.getCityname()}.jpg" width="300" height="300"></div> <!-- 도시 이미지 -->
 					<div id="citytext"> <!-- 도시 이름 -->
 						<div><b>${arry.getCityname()}</b></div>
